@@ -1,0 +1,36 @@
+@import 'common.less';
+#menu{
+  background-color: black;
+  .opacity( 70 );
+  position: absolute;
+  top: 355px;
+  left: 0px;
+  width: 100%;
+  min-width: 900px;
+  border-bottom: solid #462 1pt;
+  border-top: solid #462 1pt;
+  text-align: center;
+  vertical-align: bottom;
+  nav{
+    a{ 
+      .opacity( 100 ); 
+      font-family: ~"Lato",sans-serif;
+      font-weight: 300;
+      font-size: 11pt;
+      color: #FFF;
+      display: inline-block;
+      text-align: center;
+      padding-top: 10pt;
+      padding-left: 5pt;
+      padding-right: 10pt;
+      cursor: pointer;
+      white-space: nowrap;
+      height: 23pt;
+      text-decoration: none;
+      &:hover{
+        height:15pt;
+        border-bottom: solid white 1px;
+      }
+    }
+  }
+}

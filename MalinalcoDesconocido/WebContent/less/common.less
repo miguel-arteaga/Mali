@@ -1,0 +1,11 @@
+.cover(){
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.opacity(@opacity) {
+  opacity: @opacity/100;
+  filter: ~"alpha(opacity=@{opacity})";
+}
